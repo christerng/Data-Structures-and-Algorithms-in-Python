@@ -1,0 +1,40 @@
+fail_fast: true
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: requirements-txt-fixer
+    -   id: mixed-line-ending
+-   repo: local
+    hooks:
+    -   id: pylint
+        name: pylint
+        entry: pylint
+        language: python
+        types: [python]
+-   repo: local
+    hooks:
+    -   id: mypy
+        name: mypy
+        entry: mypy
+        language: python
+        types: [python]
+        exclude: test_r(\d)+.py
+-   repo: local
+    hooks:
+    -   id: black
+        name: black
+        entry: black
+        language: python
+        types: [python]
+-   repo: local
+    hooks:
+    -   id: pytest
+        name: pytest
+        entry: pytest
+        language: system
+        types: [python]
+        pass_filenames: false
