@@ -1,0 +1,1 @@
+Tight coupling means that any modification to A cascades to B, C, and so on, even if they should not be changed

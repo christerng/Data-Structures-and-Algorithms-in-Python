@@ -1,0 +1,4 @@
+stop - start : represents number of values between stop and start, partially inclusive
+stop - start - 1 : represents number of values between stop and start, exclusive
+(stop - start - 1) // step : represents minimum number of steps to cover exclusive values between stop and start
+(stop - start - 1 + step) // step : same as above but adds 1 because there is always one step for the definition of `range`, namely the start value itself
