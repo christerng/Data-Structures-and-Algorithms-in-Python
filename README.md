@@ -11,22 +11,23 @@ Solutions to exercises from the book by Goodrich, Tamassia, and Goldwasser
 
 ### Installing
 
-* Clone repository
+* Clone
 
 ```bash
 git clone https://github.com/christerng/Data-Structures-and-Algorithms-in-Python.git/
 ```
 
-* Install `pytest`
+* Build
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Executing program
+* `pre-commit`
 
 ```bash
-pytest
+pre-commit install
+pre-commit run
 ```
 
 ## Author
