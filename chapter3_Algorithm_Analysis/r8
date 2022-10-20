@@ -1,0 +1,20 @@
+Constant:
+2^10
+
+Linear:
+3n + 100(log(n))
+4n
+
+n-log(n):
+n(log(n))
+4n(log(n)) + 2n
+
+Quadratic:
+n^2 + 10n
+
+Polynomial:
+n^3
+
+Exponential:
+2^log(n)
+2^n

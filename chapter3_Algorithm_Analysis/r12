@@ -1,0 +1,8 @@
+d(n) is O(f(n))
+e(n) is O(g(n))
+
+Suppose d(n) = 2n and e(n) = n:
+d(n) - e(n) = 2n - n = n
+O(f(n) - g(n)) = O(n - n) = O(1)
+
+n is not O(1)

@@ -1,0 +1,4 @@
+n(log(n))
+>= cn, for c >= 2
+=> n(log(n)) >= cn
+=> n(log(n)) is Ω(n)

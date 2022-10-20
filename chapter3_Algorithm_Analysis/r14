@@ -1,0 +1,4 @@
+f(n) + g(n) <= 2 * max({f(n), g(n)})
+=> f(n) + g(n) <= c(max({f(n), g(n)}), where c > 0
+=> f(n) + g(n) is O(max({f(n), g(n)})
+=> O(f(n) + g(n)) = O(max({f(n), g(n)})

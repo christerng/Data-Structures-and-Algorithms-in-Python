@@ -1,0 +1,7 @@
+a) The running time of algorithm A is always O(f(n))
+=> A <= c * f(n), for c > 0 and n >= 1
+
+b) In the worst case, the running time of algorithm A is O(f(n))
+=> A <= c * f(n), for c > 0 and n >= 1
+
+Therefore the two statements are identical

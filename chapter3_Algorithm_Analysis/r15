@@ -1,0 +1,9 @@
+f(n) is O(g(n))
+=> f(n) <= cg(n), where c > 0
+
+Suppose c = 1/c':
+
+f(n) <= cg(n)
+=> f(n) <= (1/c')(g(n))
+=> g(n) >= c'f(n), where c' > 0
+=> g(n) is Ω(f(n))

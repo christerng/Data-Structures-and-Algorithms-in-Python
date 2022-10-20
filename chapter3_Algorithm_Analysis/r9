@@ -1,0 +1,6 @@
+d(n) is O(f(n))
+=> d(n) <= cg(n), where c > 0
+
+ad(n) <= ac(g(n)), where a > 0
+ad(n) <= c'(g(n)), where c > 0
+=> ad(n) is O(f(n))

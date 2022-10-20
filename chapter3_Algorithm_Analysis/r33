@@ -1,0 +1,3 @@
+O(n(log(n))) is asymptotically better than O(n^2)
+
+For small values of n, O(n(log(n))) may perform worse than O(n^2)

@@ -1,0 +1,7 @@
+f(n) = n^c
+
+Taking log on both sides,
+
+log(f(n)) = c(log(n))
+
+Which takes the form Y = mX + b on a log-log scale with c as m, the value of the slope

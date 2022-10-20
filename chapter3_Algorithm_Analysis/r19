@@ -1,0 +1,4 @@
+n
+<= c(n)(log(n)), for c >= 2
+=> n <= c(n)(log(n))
+=> n is O(n(log(n))

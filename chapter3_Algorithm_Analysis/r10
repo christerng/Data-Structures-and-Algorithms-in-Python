@@ -1,0 +1,9 @@
+d(n) is O(f(n))
+=> d(n) <= c(f(n)), where c > 0
+e(n) is O(g(n))
+=> e(n) <= c'(g(n)), where c' > 0
+
+d(n)e(n) <= c(f(n)) * c'(g(n))
+=> d(n)e(n) <= cc'(f(n))(g(n))
+=> d(n)e(n) <= a(f(n))(g(n)), where a > 0
+=> d(n)e(n) is O(f(n)g(n))

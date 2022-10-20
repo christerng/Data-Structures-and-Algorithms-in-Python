@@ -1,0 +1,4 @@
+n^2
+>= c(n)(log(n)), for c > 0
+=> n^2 >= c(n)(log(n))
+=> n^2 is Ω(n(log(n))
