@@ -1,0 +1,17 @@
+PuzzleSolve(k, S, U):
+  for each e in U do
+    Add e to the end of S
+    Remove e from U
+    if k == 1 then
+      if S solves the puzzle then
+        return "Solution found: " S
+    else
+      PuzzleSolve(k - 1, S, u)
+    Remove e from the end of S
+    Add e back to U
+
+PuzzleSolve(3, {}, {a, b, c, d})
+|
+PuzzleSolve(2, {a}, {b, c, d}), PuzzleSolve(2, {b}, {a, c, d}), ..., ...
+|
+PuzzleSolve(1, {a, b}, {c, d}), PuzzleSolve(1, {a, c}, {b, d}), ..., ...

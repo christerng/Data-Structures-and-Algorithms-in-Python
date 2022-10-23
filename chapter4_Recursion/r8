@@ -1,0 +1,8 @@
+Suppose Sequence A has n = 2^k integers, where k >= 0
+Then, B has n / 2 = 2^k-1 integers
+Since the algorithm is complete when B has 1 = 2^0 = 2^k-k integer, it runs k times
+
+n = 2^k
+log(n) = k
+
+The running time of the algorithm is O(log(n))
