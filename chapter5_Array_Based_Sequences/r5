@@ -1,0 +1,9 @@
+Given: Cost of growing array from size k to size 2k is 3k cyber-dollars
+Assume: 1 cyber-dollar is enough to pay for the execution of each append operation in sequence S
+
+Justification: If we charge each append operation that does not cause an overflow 7 cyber-dollars and each append operation costs 1 cyber-dollar, there will be 6 cyber-dollars unused
+An overflow operation occurs when sequence S has 2^i elements, for some integer i >= 0, and the size of the array used by S is 2^i
+Doubling the size of the aray will require 3 * 2^i cyber-dollars (given)
+When doubling the size of the array, there will be 6 * 2^(i-1) = 3 * 2^i cyber-dollars available
+
+Therefore, the execution of n append operations can be paid for using 7n cyber-dollars, so the total running time is O(n)
